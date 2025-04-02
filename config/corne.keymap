@@ -32,14 +32,14 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  VU  |  VD  |  MU  |  PL  |  5	|   |		7		|		8		|		9		|		-		|  =  | BSPC |
+// |  TAB |  VD  |  VU  |  MU  |  PL  |  5	|   |		7		|		8		|		9		|		-		|  =  | BSPC |
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |				|		6		|		5		|		4		|		[		|  ]   | `  |
 // | SHFT |  F5 | F12 |     |     |     |				|		1		|		2		|		3	 |		0		|  \  |  #  |
 //                    | GUI |     | SPC |				|	ENT |		0		 | ALT |
                         bindings = <
-   &kp TAB    &kp K_VOL_UP  &kp K_VOL_DN  &kp K_MUTE		&kp K_PLAY_PAUSE		&trans					&kp N7	&kp N8	&kp N9	&kp MINUS		&kp EQUAL	&kp BSPC
+   &kp TAB    &kp K_VOL_DN  &kp K_VOL_UP  &kp K_MUTE		&kp K_PLAY_PAUSE		&trans					&kp N7	&kp N8	&kp N9	&kp MINUS		&kp EQUAL	&kp BSPC
    &bt BT_CLR &bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3				&bt BT_SEL 4    &kp N4	&kp N5	&kp N6	&kp LBKT		&kp RBKT	&kp GRAVE
-   &kp LSHFT  &kp F5				&kp F12				&trans				&trans							&kp LGUI				&kp N1	&kp N2	&kp N3	&kp PLUS		&kp NUBS	&kp NUHS
+   &kp LSHFT  &trans				&trans				&trans				&trans							&kp LGUI				&kp N1	&kp N2	&kp N3	&kp PLUS		&kp NUBS	&kp NUHS
 																					&trans			&trans								&kp SPACE				&kp RET &kp N0  &kp RALT
                         >;
                 };
