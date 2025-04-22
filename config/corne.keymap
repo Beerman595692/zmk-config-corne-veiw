@@ -64,10 +64,10 @@
 // | CTRL | VOL UP | PLAY |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `/@   |
 // | SHFT | VOL DN |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~/#   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
-                        bindings = <e from how somethine from how something startedg started
-	 &trans			&trans	 &trans  &trans			&trans  &trans			&msc SCRL_LEFT		&msc SCRL_DOWN	&msc SCRL_UP		&msc SCRL_RIGHT	&trans	&kp PSCRN
-	 &trans			&trans	 &trans  &trans			&trans  &trans			&mmv MOVE_LEFT		&mmv MOVE_DOWN	&mmv MOVE_UP		&mmv MOVE_RIGHT	&trans  &trans
-	 &trans			&trans	 &trans  &trans			&trans  &trans			&trans						&trans					&trans					&trans					&trans	&trans
+                        bindings = < 
+	 &trans			&trans	 &trans  &trans			&trans  &trans			&msc SCRL_LEFT		&msc SCRL_DOWN	&msc SCRL_UP		&msc SCRL_RIGHT	&kp PSCRN		&trans
+	 &trans			&trans	 &trans  &trans			&trans  &trans			&mmv MOVE_LEFT		&mmv MOVE_DOWN	&mmv MOVE_UP		&mmv MOVE_RIGHT	&trans		  &trans
+	 &trans			&trans	 &trans  &trans			&trans  &trans			&trans						&trans					&trans					&trans					&trans			&trans
 															 &mkp MB4		&to 0		&mkp LCLK		&mkp RCLK					&mkp MCLK				&mkp MB5		
                         >;
                 };
